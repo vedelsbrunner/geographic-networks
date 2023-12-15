@@ -19,7 +19,7 @@ body, html {
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center; /* Centers the image boxes */
     gap: 16px;
 }
 
@@ -27,11 +27,13 @@ body, html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     overflow: hidden;
+    display: flex; /* Flex container for centering image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 .image-box img {
-    width: 80%;
+    width: 100%;
     height: auto;
     object-fit: contain;
 }
-
