@@ -13,9 +13,9 @@ function App() {
             <Image 
               src={`/public/${img}`} 
               alt={`Image ${index + 1}`} 
-              w={["80%"]} // Responsive width
+              w={["80%"]} 
               h="auto" 
-              objectFit="contain" // Change to 'contain' to avoid cropping
+              objectFit="contain" 
             />
           </Box>
         ))}
