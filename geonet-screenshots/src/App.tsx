@@ -2,7 +2,7 @@ import './App.css';
 import { Box, Image, VStack, Heading, Container } from '@chakra-ui/react';
 
 function App() {
-  const images = ['01.png', '02.png', '03.png', '04.png', '05.png', '07.png'];
+  const images = ['./01.png', './02.png', './03.png', './04.png', './05.png', './07.png'];
 
   return (
     <Container maxW="container.xl" p={4}>
